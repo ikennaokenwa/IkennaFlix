@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610BB2E927BACB7B00F6D41A /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610BB2E827BACB7B00F6D41A /* MovieDetailsViewController.swift */; };
 		61119A9127B3063600C77383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119A9027B3063600C77383 /* AppDelegate.swift */; };
 		61119A9327B3063600C77383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119A9227B3063600C77383 /* SceneDelegate.swift */; };
 		61119A9527B3063600C77383 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119A9427B3063600C77383 /* MoviesViewController.swift */; };
@@ -17,6 +18,8 @@
 		61119AB227B3063700C77383 /* IkennaFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119AB127B3063700C77383 /* IkennaFlixUITests.swift */; };
 		61119AB427B3063700C77383 /* IkennaFlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119AB327B3063700C77383 /* IkennaFlixUITestsLaunchTests.swift */; };
 		61119AC127B46A0300C77383 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61119AC027B46A0300C77383 /* MovieCell.swift */; };
+		619BAE5227BC32F7007A3576 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BAE5127BC32F7007A3576 /* MovieGridViewController.swift */; };
+		619BAE5427BC414C007A3576 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BAE5327BC414C007A3576 /* MovieGridCell.swift */; };
 		B4A689D366CF1045FB38BD5B /* Pods_IkennaFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D025934D3BED5EE3D0182 /* Pods_IkennaFlix.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		002689B519068464602AFFA4 /* Pods-IkennaFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkennaFlix.release.xcconfig"; path = "Target Support Files/Pods-IkennaFlix/Pods-IkennaFlix.release.xcconfig"; sourceTree = "<group>"; };
+		610BB2E827BACB7B00F6D41A /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		61119A8D27B3063600C77383 /* IkennaFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IkennaFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61119A9027B3063600C77383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61119A9227B3063600C77383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		61119AB127B3063700C77383 /* IkennaFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkennaFlixUITests.swift; sourceTree = "<group>"; };
 		61119AB327B3063700C77383 /* IkennaFlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkennaFlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		61119AC027B46A0300C77383 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		619BAE5127BC32F7007A3576 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		619BAE5327BC414C007A3576 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		9E5D025934D3BED5EE3D0182 /* Pods_IkennaFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IkennaFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CC205C1FE5BA7E2E6A3F40 /* Pods-IkennaFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkennaFlix.debug.xcconfig"; path = "Target Support Files/Pods-IkennaFlix/Pods-IkennaFlix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +95,6 @@
 				A1CC205C1FE5BA7E2E6A3F40 /* Pods-IkennaFlix.debug.xcconfig */,
 				002689B519068464602AFFA4 /* Pods-IkennaFlix.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -122,6 +127,9 @@
 				61119A9227B3063600C77383 /* SceneDelegate.swift */,
 				61119A9427B3063600C77383 /* MoviesViewController.swift */,
 				61119A9627B3063600C77383 /* Main.storyboard */,
+				619BAE5327BC414C007A3576 /* MovieGridCell.swift */,
+				619BAE5127BC32F7007A3576 /* MovieGridViewController.swift */,
+				610BB2E827BACB7B00F6D41A /* MovieDetailsViewController.swift */,
 				61119AC027B46A0300C77383 /* MovieCell.swift */,
 				61119A9927B3063700C77383 /* Assets.xcassets */,
 				61119A9B27B3063700C77383 /* LaunchScreen.storyboard */,
@@ -330,10 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610BB2E927BACB7B00F6D41A /* MovieDetailsViewController.swift in Sources */,
 				61119A9527B3063600C77383 /* MoviesViewController.swift in Sources */,
 				61119A9127B3063600C77383 /* AppDelegate.swift in Sources */,
 				61119AC127B46A0300C77383 /* MovieCell.swift in Sources */,
 				61119A9327B3063600C77383 /* SceneDelegate.swift in Sources */,
+				619BAE5227BC32F7007A3576 /* MovieGridViewController.swift in Sources */,
+				619BAE5427BC414C007A3576 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
